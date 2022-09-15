@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import DataComponet from './DataComponet';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>OrerReacted</h1>
+      <p>Personal blog by Sammy</p>
+      <p>I'll explain this word and code</p>
+      <DataComponet/>
     </div>
   );
 }
